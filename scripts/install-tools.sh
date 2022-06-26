@@ -33,3 +33,6 @@ echo "alias mk='/usr/local/bin/minikube'" >> ~/.bash_aliases
 echo "Installing Kubernetes Plugin..."
 ibmcloud plugin install container-service
 echo "IBM Cloud CLI installation complete."
+
+echo "Install K3D for Kubernetes alternative"
+curl -s https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash

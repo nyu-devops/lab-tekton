@@ -25,11 +25,12 @@
 		"redhat.vscode-yaml",
 		"streetsidesoftware.code-spell-checker",
 		"wholroyd.jinja",
-		"yzhang.markdown-all-in-one"		
+		"yzhang.markdown-all-in-one",
+        "redhat.vscode-tekton-pipelines"
 	],
-    "postCreateCommand": "sudo pip install -r requirements.txt; bash /app/scripts/ibm-tools.sh",
+    "postCreateCommand": "sudo pip install -r requirements.txt; bash /app/scripts/install-tools.sh",
 	"features": {
-		"docker-in-docker": "latest",
+		"docker-from-docker": "latest",
 		"kubectl-helm-minikube": "latest"
 	}
 }
